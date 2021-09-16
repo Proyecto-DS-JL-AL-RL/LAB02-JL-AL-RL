@@ -1,0 +1,80 @@
+*{
+    font-size: 15px;
+    color: #fff;
+}
+body{
+    margin:0;
+    background: radial-gradient(#000,#555)    
+}
+.container{
+    background-color: transparent;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 50px;
+    
+}
+p{
+    font-size: 20px;
+    margin:0;
+}
+.img_descrp{
+    margin: 25px;
+    margin-bottom: 5px;
+    
+}
+.obj{
+    position: relative;
+    width:200px;
+    height:320px;
+    
+    margin: 20px;
+    overflow: hidden;
+    border-radius: 5%;
+    border: 1px solid;
+}
+.button{
+    width: 33%;
+    height:30px;
+    text-decoration: none;
+    background-color: transparent;
+}
+.container_button{
+    position: absolute;
+    width: 100%;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    bottom: 0;
+    width: 100%;
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    font-size: 50px;
+    z-index: 100;
+    background: radial-gradient(#000,#555) ;
+    width: 100%;
+    text-align: center;
+
+}
+header{
+    position: fixed;
+    width: 100%;
+    float:none;
+    background: radial-gradient(#000,#555) ;
+    top: 0;
+    z-index: 150;
+    
+    margin: 0px;
+    font-size: 50px;
+    text-align: center;
+
+}
+header >a{
+    text-decoration: none;
+    font-size: 50px;
+
+}
