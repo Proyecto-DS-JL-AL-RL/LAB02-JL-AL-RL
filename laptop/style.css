@@ -1,4 +1,6 @@
-
+*:not(h1, body, img){
+    background-color:gray;
+}
 div#principal{
     margin:auto;
     margin-top: 50px;
@@ -15,29 +17,49 @@ div#social-media{
 }
 
 div#tienda{
-    width:640px;
+    position:center;
+    width:740px;
     height:200px;
+    text-align: center;
     background-color:goldenrod;
 }
 
+div#titulo{
+    font-size: 20px;
+    margin:0;
+    color: aquamarine;
+}
+
 div#body{
+    position: center;
+    overflow: hidden;
+    border-radius: 5%;
+    border: 1px solid;
+    justify-content: center;
+    align-items: center;
     margin-top:20px;
-    width:640px;
-    height:580px;
+    width:500px;
+    height:640px;
+    text-align:center;
     background-color:purple;
 }
 
-div#button{
-    color:#fffb04;
-    padding: 10px 25px;
-    border-radius: 20px ;
-    outline: none;
-    cursor: pointer;
-    color:white;
+div#img{
+    margin: 15px 5px;
+    margin-bottom: 16px;
+    text-align:center
 }
 
-div#fc{
-    margin: 5%;
-    max-width:90%;
-    max-height: 100%;
+div#button{
+    height:20px; 
+    width:100px; 
+    margin: 20px  200px; 
+    position:relative;
+}
+
+div#button1{
+    height:20px; 
+    width:100px; 
+    margin: 20px  1px; 
+    position:relative;
 }
