@@ -2,9 +2,8 @@ body{
     background: rgb(93,93,93);
     background: radial-gradient(circle, rgb(39, 39, 39) 0%, rgb(26, 26, 26) 55%, rgba(0,0,0,1) 100%);   
 }
-.espacioBlanco{
-    top:0;
-    height:10%;
+.Contenido{
+    margin-top: 5%;
 }
 .bottonB{
     top:0;
