@@ -41,6 +41,10 @@ p{
     text-decoration: none;
     background-color: transparent;
 }
+.button:hover{
+    text-align: center;
+    font-size:18px;
+}
 .container_button{
     position: absolute;
     width: 100%;
@@ -80,4 +84,40 @@ header >a{
 }
 button > a{
     text-decoration: none;
+    
+}
+.mas_vendido{
+    position:fixed;
+    right: 0;
+    margin-top: 20px;
+
+    
+    padding: 10px;
+    border-radius: 10%;
+    animation: vende 3s infinite;
+    
+    z-index:2000;
+}
+@keyframes vende{
+    0%{
+        font-size: 15px;
+    }
+    50%{
+        font-size: 20px;
+    }
+    100%{
+        font-size: 15px;
+    }
+}
+.mas_vendido:hover{
+    background-color: #000;
+}
+.mas_vendido > .container_vendidos{
+    display:none;
+}
+.mas_vendido:hover > .container_vendidos{
+    display: block;
+}
+.container_vendidos{
+    overflow-y: auto;
 }
