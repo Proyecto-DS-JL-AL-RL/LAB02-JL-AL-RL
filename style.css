@@ -14,6 +14,51 @@
     position: relative;
     overflow: hidden;
 }
+.estrellaContainer{
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    background-color: rgba(21, 51, 223, 0.582);
+    height: 30%;
+    width: 50%;
+    border-radius: 30px;
+}
+.estrellaTitulo{
+    color: rgb(166, 255, 0);
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    height: 10%;
+    width: 100%;
+}
+.productosEstrella{
+    background-color: rgba(8, 214, 197, 0.493);
+    position: relative;
+    top: 10%;
+    height: 110%;
+    width: 100%;
+    border-radius: 30px;
+}
+.productoEst{
+    float: left;
+    width: 30%;
+    height: 100%;
+    margin: 1%;
+}
+.productoEst:hover{
+    width: 32%;
+    height: 102%;
+    margin: 0%;
+}
+
+.imgProducto{
+    border-radius: 20px;
+    margin: 5%;
+    margin-top: 3%;
+    margin-bottom: 1%;
+    max-width: 90%;
+    max-height: 100%;
+}
 
 .logo{
     width: 200px;
@@ -30,7 +75,7 @@
 }
 
 button{
-    color:#fffb04;
+    color:#fffb00;
     padding: 10px 25px;
     background:black ;
     border: 2px solid #fbfcfd; 
@@ -38,10 +83,13 @@ button{
     outline: none;
     cursor: pointer;
 }
+.enlaceMain:visited{
+    color:#fffb00;
+}
 .contenido{
     color:#fbfcfd;
     position: absolute;
-    top: 50%;
+    top: 30%;
     left: 8%;
     transform: translateY(-50%);
     z-index: 2;
@@ -88,10 +136,6 @@ cursor: pointer;
     text-align: center;
     position: absolute;
     bottom: 30px;
-}
-button > a{
-    color:#fffb04 ;
-    text-decoration: none;
 }
 
 
